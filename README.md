@@ -21,6 +21,8 @@ J'ai choisi le site d'[Oktopod](oktopod.io) ! **:P**
 ## Breakpoints repérés
 
 - Trois icones du dessus (mail, cloud, login) : 
+    - Changement entre **1888px** et **1887px**
+    - Les 
 
 - S : 640px
 - M : 960px
