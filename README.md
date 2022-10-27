@@ -1,6 +1,6 @@
 # Brief N°2 ! (Ethan LERIGAB)
 
-J'ai choisi le site d'[Oktopod](oktopod.io) ! **:P**
+J'ai choisi le site d'[Oktopod](https://www.oktopod.io/) ! **:P**
 
 ## Checkups de structure
 
@@ -22,7 +22,7 @@ J'ai choisi le site d'[Oktopod](oktopod.io) ! **:P**
 
 - Trois icones du dessus (mail, cloud, login) : 
     - Changement entre **1888px** et **1887px**
-    - Les 
+    - (L'icone de login passe au dessous des deux précédens icones)
 
 - S : 640px
 - M : 960px
