@@ -1,6 +1,6 @@
-# Brief2
+# Brief N°2 ! (Ethan LERIGAB)
 
-J'ai choisi le site d'[Oktopod](oktopod.io
+J'ai choisi le site d'[Oktopod](oktopod.io) ! **:P**
 
 ## Checkups de structure
 
