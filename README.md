@@ -26,7 +26,9 @@ J'ai choisi le site d'[Oktopod](https://www.oktopod.io/) ! **:P**
     - Changement entre **1888px** et **1887px**
     - (L'icone de login passe au dessous des deux précédens icones)
     - (Retour à l'alignement normal des 3 icones pour le mode tablette et smartphone)
-- 
+- Bloc avec logo Oktopod et paragraphe "Mettez le cap sur le **digital** !" (div "elementor-widget-warp") :
+    - Changement entre **768px** et **767px**
+    - (Le paragraphe "Mettez le cap sur le **digital** !" passe en dessous du logo Oktopod)
 
 - S : 640px
 - M : 960px
