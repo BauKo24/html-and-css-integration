@@ -12,11 +12,13 @@ J'ai choisi le site d'[Oktopod](oktopod.io) ! **:P**
 - Possède des Cards ? **OUI**
 - Présente des éléments UI redondants ? **OUI**
 
-## Types de breakpoints repérés
+## Types de breakpoints utilisés
 
-- 
+- Desktop
+- Tablet
+- Mobile
 
-## Breakpoints que j'ai repérés
+## Breakpoints repérés
 
 - Trois icones du dessus (mail, cloud, login) : 
 
