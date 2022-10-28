@@ -12,15 +12,17 @@ body {
 /* Header */
 
 .menu-bar {
+    position: absolute;
     display: flex;
     width: 100%;
-    background-color: #0F505B;
+    background-color: rgba(15, 80, 90, 0.45);
     justify-content: space-between;
 }
 
 .petit-logo-okto {
-    width: auto;
+    width: 15.5%;
     padding: 20px;
+    text-align: center;
 }
 
 .imageokto {
@@ -28,20 +30,28 @@ body {
     height: 55.67px;
 }
 
-.menu-liens ul {
+.menu-liens {
     display: flex;
-}
-
-.menu-liens li {
-    list-style: none;
+    justify-content: space-between;
+    margin: auto;
 }
 
 .icones li {
     list-style: none;
+    margin: auto;
     color: white;
 }
 
 .icones {
     display: flex;
     
+}
+
+
+/* Background section 1  */
+
+.bg-waves-okto {
+    background-image: url("ressources oktopod/wave-oktopod-web.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
