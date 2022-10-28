@@ -1,5 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
-.bg-waves-okto{
-    background-image: url("ressources oktopod/wave-oktopod-web.png");
+
+/* Body */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* Header */
+
+.menu-bar {
+    display: flex;
+    width: 100%;
+    background-color: #0F505B;
+    justify-content: space-between;
+}
+
+.petit-logo-okto {
+    width: auto;
+    padding: 20px;
+}
+
+.imageokto {
+    width: 197px;
+    height: 55.67px;
+}
+
+.menu-liens ul {
+    display: flex;
+}
+
+.menu-liens li {
+    list-style: none;
+}
+
+.icones li {
+    list-style: none;
+    color: white;
+}
+
+.icones {
+    display: flex;
+    
 }
