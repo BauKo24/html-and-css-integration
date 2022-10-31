@@ -16,37 +16,57 @@ body {
     display: flex;
     width: 100%;
     background-color: rgba(15, 80, 90, 0.45);
-    justify-content: space-between;
 }
 
 .petit-logo-okto {
-    width: 15.5%;
+    display: flex;
+    justify-content: center;
     padding: 20px;
-    text-align: center;
+    width: 300px;
+    height: 55.67px;
 }
 
 .imageokto {
-    width: 197px;
-    height: 55.67px;
+    text-align: center;
 }
 
 .menu-liens {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: auto;
 }
+
+
+
+.menu-liens a {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
 
 .icones li {
     list-style: none;
     margin: auto;
     color: white;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .icones {
     display: flex;
-    
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    width: 249.781px;
+    height: 55.672px;
 }
 
+.icones ul {
+    display: flex;
+    padding: 0;
+}
 
 /* Background section 1  */
 
