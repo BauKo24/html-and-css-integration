@@ -9,13 +9,18 @@ body {
     font-family: 'Comfortaa', sans-serif;
 }
 
+.bld-txt {
+    font-weight: bold;
+}
+
 /* Header */
 
 .menu-bar {
-    position: absolute;
+    position: fixed;
     display: flex;
     width: 100%;
     background-color: rgba(15, 80, 90, 0.45);
+    z-index: 2;
 }
 
 .petit-logo-okto {
@@ -100,7 +105,7 @@ body {
     color: white;
 }
 
-.contacter {
+.bouton {
     font-family: 'Comfortaa', sans-serif;
     color: white;
     background-color: #33A5A6;
@@ -127,10 +132,10 @@ body {
     background-color: white;
     border-radius: 75% 25% 43% 57%/46% 29% 71% 54%;
     box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 11%);
-    margin-left: 35px;
-    margin-right: 35Bapx;
+    margin-left: 40px;
+    margin-right: 40px;
     padding: 15px;
-    width: 120px;
+    width: 140px;
 }
 
 /* Background section 2 */
@@ -142,5 +147,43 @@ body {
 }
 
 .cap-digi2 {
-    
+    position: relative;
+    z-index: 1;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.cap-digi2 h2::before {
+    content: "CAP SUR LE DIGITAL!";
+    position: absolute;
+    top: -50px;
+    font-size: 67px;
+    font-weight: bold;
+    z-index: 0;
+    color: rgba(51,165,166,.16);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cards1 {
+    display: flex;
+}
+
+.cards2 {
+    display: flex;
+}
+
+.crd {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 35px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 11%);
+    width: 245px;
+    height: 383px;
+    z-index: 0;
+    position: relative;
 }
