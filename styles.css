@@ -75,3 +75,26 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.paragraphe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+}
+
+.cap-digi {
+    width: 520px;
+    height: 375px;
+    margin-left: 100px;
+    color: white;
+}
+
+.contacter {
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+    background-color: #33A5A6;
+    border-radius: 20px;
+    border-style: none;
+    padding: 15px;
+}
