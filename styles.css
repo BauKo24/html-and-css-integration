@@ -61,6 +61,8 @@ body {
     padding: 20px;
     width: 249.781px;
     height: 55.672px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.178);
 }
 
 .icones ul {
@@ -80,10 +82,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+
+
 }
 
-.cap-digi {
+.logo-okto {
+    text-shadow: 0px 0px 10px 5px rgb(0 0 0 / 11%);
+}
+
+.cap-digi1 {
     width: 520px;
     height: 375px;
     margin-left: 100px;
@@ -97,4 +107,40 @@ body {
     border-radius: 20px;
     border-style: none;
     padding: 15px;
+}
+
+.flèche-milieu {
+    display: flex;
+    justify-content: center;
+    color: #33A5A6;
+    margin: 100px;
+}
+
+.suite-ico {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 150px;
+}
+
+.ico {
+    background-color: white;
+    border-radius: 75% 25% 43% 57%/46% 29% 71% 54%;
+    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 11%);
+    margin-left: 35px;
+    margin-right: 35Bapx;
+    padding: 15px;
+    width: 120px;
+}
+
+/* Background section 2 */
+
+.bg-splash-okto {
+    background-image: url("ressources oktopod/oktopod-auvergne-rhone-alpes-e1575307919345.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cap-digi2 {
+    
 }
