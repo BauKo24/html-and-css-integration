@@ -3,6 +3,10 @@
 
 /* Body */
 
+li {
+    list-style: none;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -186,4 +190,44 @@ body {
     height: 383px;
     z-index: 0;
     position: relative;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: #0f505b;
+}
+
+.links ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.links {
+    color: #94b1b6;
+    width: 550px;
+}
+
+.links li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.résaux ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.résaux {
+    color: #7b9fa5;
+    width: 550px;
+}
+
+.résaux li {
+    margin-left: 15px;
+    margin-right: 15px;
 }
