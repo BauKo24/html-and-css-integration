@@ -153,8 +153,8 @@ body {
 .cap-digi2 {
     position: relative;
     z-index: 1;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .cap-digi2 .cp::before {
@@ -237,4 +237,47 @@ footer {
 .bg-blue-compass {
     background-color: #16808c;
     margin: 0;
+    
+}
+
+.port {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.port .re::before {
+    content: "POUR ARRIVER À BON PORT";
+    top: -50px;
+    position: absolute;
+    font-size: 67px;
+    font-weight: bold;
+    z-index: 0;
+    color: rgba(255,255,255,.16);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.re {
+    
+}
+
+.liste-contacts {
+    color: white;
+}
+
+.liste-contacts ul {
+    justify-content: center;
+    display: flex;
+}
+
+.liste-contacts li {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.form-contact {
+    text-align: center;
+
+    background-color: white;
+    border-radius: 5px;
 }
