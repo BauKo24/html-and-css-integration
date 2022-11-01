@@ -79,7 +79,7 @@ body {
     padding: 0;
 }
 
-/* Background section 1  */
+/* Section 1  */
 
 .bg-waves-okto {
     background-image: url("ressources oktopod/wave-oktopod-web.png");
@@ -142,7 +142,7 @@ body {
     width: 140px;
 }
 
-/* Background section 2 */
+/* Section 2 */
 
 .bg-splash-okto {
     background-image: url("ressources oktopod/oktopod-auvergne-rhone-alpes-e1575307919345.png");
@@ -157,15 +157,15 @@ body {
     padding-right: 400px;
 }
 
-.cap-digi2 h2::before {
+.cap-digi2 .cp::before {
     content: "CAP SUR LE DIGITAL!";
     position: absolute;
     top: -50px;
     font-size: 67px;
     font-weight: bold;
     z-index: 0;
-    color: rgba(51,165,166,.16);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(51, 165, 166, .16);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .cards1 {
@@ -230,4 +230,11 @@ footer {
 .résaux li {
     margin-left: 15px;
     margin-right: 15px;
+}
+
+/* Section 3 */
+
+.bg-blue-compass {
+    background-color: #16808c;
+    margin: 0;
 }
