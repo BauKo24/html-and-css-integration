@@ -29,3 +29,7 @@ J'ai choisi le site d'[Oktopod](https://www.oktopod.io/) ! **:P**
 - Bloc avec logo Oktopod et paragraphe "Mettez le cap sur le **digital** !" (div "elementor-widget-warp") :
     - Changement entre **768px** et **767px**
     - (Le paragraphe "Mettez le cap sur le **digital** !" passe en dessous du logo Oktopod)
+
+## Structure CSS / Framework utilisé ?
+
+Les éléments sont structurés dans des classes "elementor", j'ai cru comprendre qu'[elementor](https://elementor.com/) était un framework
