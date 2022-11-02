@@ -32,4 +32,4 @@ J'ai choisi le site d'[Oktopod](https://www.oktopod.io/) ! **:P**
 
 ## Structure CSS / Framework utilisé ?
 
-Les éléments sont structurés dans des classes "elementor", j'ai cru comprendre qu'[elementor](https://elementor.com/) était un framework
+Les éléments sont structurés dans des classes "elementor", j'ai cru comprendre qu'[elementor](https://elementor.com/) était un framework lié à Worpress.
