@@ -85,6 +85,7 @@ body {
     background-image: url("ressources oktopod/wave-oktopod-web.png");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 30px;
 }
 
 .paragraphe {
@@ -148,6 +149,7 @@ body {
     background-image: url("ressources oktopod/oktopod-auvergne-rhone-alpes-e1575307919345.png");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 30px;
 }
 
 .cap-digi2 {
@@ -199,6 +201,7 @@ body {
 .bg-blue-compass {
     background-color: #16808c;
     margin: 0;
+    padding: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -216,7 +219,7 @@ body {
 .port .re::before {
     content: "POUR ARRIVER À BON PORT";
     top: -25px;
-    left: 600px;
+    left: 550px;
     position: absolute;
     font-size: 67px;
     font-weight: bold;
@@ -266,6 +269,49 @@ body {
 }
 
 /* Footer */
+
+.the-last-okto {
+    display: flex;
+    justify-content: center;
+    background-color: #053544;
+    color: white;
+    padding: 40px;
+}
+
+.equipage li {
+    margin: 10px;
+}
+
+.img-okto-footer {
+    display: flex;
+    align-content: center;
+}
+
+.okto-footer {
+    width: 230px;
+    height: 173px;
+}
+
+.sp-color {
+    color: #7c959d;
+}
+
+.bt-tlo {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bienvenue li {
+    font-weight: 200;
+    color: rgba(255,255,255,.45);
+    margin: 10px;
+}
+
+.whassup p {
+    font-weight: 200;
+    color: rgba(255,255,255,.45);
+}
+
 
 footer {
     display: flex;
